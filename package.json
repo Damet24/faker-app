@@ -1,0 +1,23 @@
+{
+  "name": "faker-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev:faker:dev": "node ./src/backend/authenticator/index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Mercado <daniel.mercado.dev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.1.1",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "http-status": "1.7.4",
+    "jsonwebtoken": "9.0.2",
+    "mongoose": "8.4.1",
+    "node-dependency-injection": "3.1.2",
+    "zod": "3.23.8"
+  }
+}
